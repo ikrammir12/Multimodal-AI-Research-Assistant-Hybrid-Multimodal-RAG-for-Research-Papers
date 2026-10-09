@@ -1,0 +1,16 @@
+# Additional packages for the API + UI layer.
+fastapi
+uvicorn[standard]
+streamlit
+requests
+
+# The RAG backend also uses dependencies from the existing pipeline:
+chromadb
+numpy
+python-dotenv
+sentence-transformers
+FlagEmbedding
+langchain-core
+langchain-openai
+rank-bm25
+Pillow

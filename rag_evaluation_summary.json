@@ -1,0 +1,98 @@
+{
+  "dataset": "D:\\CV project\\Multimodal AI Research Assistant\\Multimodal-AI-Research-Assistant-Hybrid-Multimodal-RAG-for-Research-Papers\\rag_eval_dataset_annotated.json",
+  "results_csv": "D:\\CV project\\Multimodal AI Research Assistant\\Multimodal-AI-Research-Assistant-Hybrid-Multimodal-RAG-for-Research-Papers\\rag_evaluation_results.csv",
+  "top_k": 5,
+  "note": "Page-level retrieval metrics are computed only for questions with non-empty relevant page labels. Annotate the JSON ground truth and rerun to obtain meaningful aggregate scores.",
+  "methods": {
+    "dense": {
+      "hit@5": {
+        "evaluated_questions": 10,
+        "mean": 1
+      },
+      "mrr@5": {
+        "evaluated_questions": 10,
+        "mean": 0.8833
+      },
+      "precision@5": {
+        "evaluated_questions": 10,
+        "mean": 0.48
+      },
+      "recall@5": {
+        "evaluated_questions": 10,
+        "mean": 0.8417
+      }
+    },
+    "bm25": {
+      "hit@5": {
+        "evaluated_questions": 10,
+        "mean": 0.8
+      },
+      "mrr@5": {
+        "evaluated_questions": 10,
+        "mean": 0.4033
+      },
+      "precision@5": {
+        "evaluated_questions": 10,
+        "mean": 0.2
+      },
+      "recall@5": {
+        "evaluated_questions": 10,
+        "mean": 0.3333
+      }
+    },
+    "hybrid": {
+      "hit@5": {
+        "evaluated_questions": 10,
+        "mean": 1
+      },
+      "mrr@5": {
+        "evaluated_questions": 10,
+        "mean": 0.9
+      },
+      "precision@5": {
+        "evaluated_questions": 10,
+        "mean": 0.36
+      },
+      "recall@5": {
+        "evaluated_questions": 10,
+        "mean": 0.65
+      }
+    },
+    "tables": {
+      "hit@5": {
+        "evaluated_questions": 7,
+        "mean": 0.8571
+      },
+      "mrr@5": {
+        "evaluated_questions": 7,
+        "mean": 0.7143
+      },
+      "precision@5": {
+        "evaluated_questions": 7,
+        "mean": 0.2286
+      },
+      "recall@5": {
+        "evaluated_questions": 7,
+        "mean": 0.7619
+      }
+    },
+    "figures": {
+      "hit@5": {
+        "evaluated_questions": 5,
+        "mean": 1
+      },
+      "mrr@5": {
+        "evaluated_questions": 5,
+        "mean": 0.4333
+      },
+      "precision@5": {
+        "evaluated_questions": 5,
+        "mean": 0.2
+      },
+      "recall@5": {
+        "evaluated_questions": 5,
+        "mean": 1.0
+      }
+    }
+  }
+}

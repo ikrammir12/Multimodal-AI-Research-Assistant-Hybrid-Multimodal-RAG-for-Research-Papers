@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated data and local indexes
+chroma_db/
+extracted_images/
+*.sqlite3
+
+# Local research PDFs (uncomment if you want to exclude all PDFs)
+# *.pdf
+
+# Temporary and duplicate evaluation output
+rag_evaluation_results.csv
+rag_evaluation (1).py
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+#model
+models/

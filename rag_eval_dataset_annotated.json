@@ -1,0 +1,165 @@
+{
+  "instructions": "Ground-truth labels annotated from the supplied 29-page PDF. Page numbers are physical PDF page numbers starting at 1, not printed page numbers. Reference answers are grounded in the source PDF. Some source tables contain differing figures/qualifications; see Q07 and Q10.",
+  "questions": [
+    {
+      "id": "Q01",
+      "type": "overview",
+      "question": "What is the paper's main focus regarding population in Pakistan?",
+      "relevant_text_pages": [
+        1,
+        2,
+        3,
+        15
+      ],
+      "relevant_table_pages": [],
+      "relevant_figure_pages": [],
+      "reference_answer": "The chapter focuses on Pakistan’s population, labour force and employment. It discusses rapid population growth and its pressure on public services, demographic and age structure, population patterns, family planning, gender parity, skills and employment initiatives, and overseas employment. It frames population growth as a challenge but says education, healthcare, skills and well-managed demographic change can support development. (Physical PDF pages 1–3 and 15.)"
+    },
+    {
+      "id": "Q02",
+      "type": "numeric_fact",
+      "question": "What population growth rate does the paper report for Pakistan, and what year or period does it refer to?",
+      "relevant_text_pages": [
+        3,
+        16
+      ],
+      "relevant_table_pages": [
+        16
+      ],
+      "relevant_figure_pages": [
+        3
+      ],
+      "reference_answer": "The narrative reports an average annual population growth rate of 2.55% for 2017–2023, slightly higher than the 2.4% reported for 1998–2017. The Population table on physical PDF page 16 also lists 2.55 in the 2023 growth-rate column. (Physical PDF pages 3 and 16.)"
+    },
+    {
+      "id": "Q03",
+      "type": "trend",
+      "question": "What trend in Pakistan's population is described across the periods covered by the paper?",
+      "relevant_text_pages": [
+        3,
+        16,
+        17,
+        20
+      ],
+      "relevant_table_pages": [
+        16,
+        17,
+        20
+      ],
+      "relevant_figure_pages": [
+        3
+      ],
+      "reference_answer": "Pakistan’s population increased about six-fold from 42.88 million in 1961 to 241.5 million in 2023. Figure 12.1 shows census population values of about 42.88m (1961), 65.3m (1972), 84.25m (1981), 132.35m (1998), 207.68m (2017), and 241.49m (2023). The text reports average annual growth of 2.55% in 2017–2023 versus 2.4% in 1998–2017 and says population momentum suggests further growth. (Physical PDF pages 3, 16, 17 and 20.)"
+    },
+    {
+      "id": "Q04",
+      "type": "factors",
+      "question": "Which demographic factors does the paper discuss in relation to population growth?",
+      "relevant_text_pages": [
+        2,
+        3,
+        4
+      ],
+      "relevant_table_pages": [],
+      "relevant_figure_pages": [
+        3
+      ],
+      "reference_answer": "The chapter links high fertility and population growth to limited autonomy and opportunities for women and girls and limited access to education and reproductive health services, which can restrict informed family-planning decisions. It also describes Pakistan’s young age structure: 26% are aged 15–29, 53.8% are aged 15–59, 67% are under 30, and 79% are under 40. For major-city population growth, the text also mentions urbanization, migration and metropolitan expansion. (Physical PDF pages 2–4.)"
+    },
+    {
+      "id": "Q05",
+      "type": "comparison",
+      "question": "Does the paper compare population growth across provinces or regions? Summarize the comparison it supports.",
+      "relevant_text_pages": [
+        3,
+        4,
+        20,
+        22
+      ],
+      "relevant_table_pages": [
+        18,
+        20,
+        22
+      ],
+      "relevant_figure_pages": [],
+      "reference_answer": "Yes. Tables 12.3, 12.5 and 12.7 compare population across regions/provinces and census years. Table 12.5 lists Pakistan at 33.740 million in 1951 and 241.499 million in 2023; it lists Punjab at 20.541m to 127.688m, Sindh at 6.048m to 55.696m, Khyber Pakhtunkhwa at 4.557m to 40.856m, and Balochistan at 1.167m to 14.894m across those endpoints. The table also includes FATA for historical periods, with a note that FATA merged into Khyber Pakhtunkhwa. (Physical PDF pages 18, 20 and 22.)"
+    },
+    {
+      "id": "Q06",
+      "type": "table_lookup",
+      "question": "Which extracted table is most relevant to Pakistan's population growth rate?",
+      "relevant_text_pages": [
+        3,
+        16
+      ],
+      "relevant_table_pages": [
+        16
+      ],
+      "relevant_figure_pages": [],
+      "reference_answer": "The most directly relevant table is the table headed “TABLE 12.1 POPULATION” on physical PDF page 16, because it contains annual population values and a Growth Rate column. Its 2023 row lists population as 241.50 million and growth rate as 2.55. The narrative on physical page 3 explains that 2.55% is the average annual rate for 2017–2023. (Note: the PDF also uses the label Table 12.1 for FP2030 indicators on physical page 5; that is a different table.)"
+    },
+    {
+      "id": "Q07",
+      "type": "table_numeric",
+      "question": "What population values and time period are reported in the most relevant table?",
+      "relevant_text_pages": [
+        3,
+        16,
+        17
+      ],
+      "relevant_table_pages": [
+        16
+      ],
+      "relevant_figure_pages": [],
+      "reference_answer": "The “TABLE 12.1 POPULATION” table on physical PDF page 16 lists yearly values from 2000 through 2023. Examples from that table are 139.55 million in 2000, 207.68 million in 2017, and 241.50 million in 2023; the 2023 row lists a growth rate of 2.55. Be careful when comparing tables: the separate population table on physical page 17 lists the 2000 population as 139.96 million, so the PDF contains different 2000 values in these tables. Use the named table’s figures for this question."
+    },
+    {
+      "id": "Q08",
+      "type": "figure_interpretation",
+      "question": "Which figure, if any, visualizes Pakistan's population trend, and what information can be read from it?",
+      "relevant_text_pages": [
+        3
+      ],
+      "relevant_table_pages": [],
+      "relevant_figure_pages": [
+        3
+      ],
+      "reference_answer": "Figure 12.1, “Population (mn) and growth rate (%)”, on physical PDF page 3 visualizes Pakistan’s population across census years 1961, 1972, 1981, 1998, 2017 and 2023, showing a rise from 42.88 million to about 241.5 million. The accompanying text reports average annual growth of 2.55% for 2017–2023 and 2.4% for 1998–2017. The figure’s growth-rate line is plotted on a percentage axis; the exact period rates are stated in the text. (Physical PDF page 3.)"
+    },
+    {
+      "id": "Q09",
+      "type": "multimodal",
+      "question": "Using the text and any relevant table or figure, summarize the evidence the paper provides about Pakistan's population growth.",
+      "relevant_text_pages": [
+        2,
+        3,
+        16
+      ],
+      "relevant_table_pages": [
+        16
+      ],
+      "relevant_figure_pages": [
+        3
+      ],
+      "reference_answer": "The text says Pakistan’s population rose from 42.88 million in 1961 to 241.5 million in 2023. Average annual growth was 2.55% in 2017–2023, compared with 2.4% in 1998–2017. Figure 12.1 visualizes the long-term population rise and growth rate, while the Population table on physical page 16 lists annual population values and a 2.55 growth-rate entry for 2023. The chapter links continued growth with population momentum and discusses pressure on public services. (Physical PDF pages 2, 3 and 16.)"
+    },
+    {
+      "id": "Q10",
+      "type": "limitations_or_qualification",
+      "question": "What limitations, definitions, or qualifications does the paper state about the population statistics or projections it presents?",
+      "relevant_text_pages": [
+        2,
+        3,
+        16,
+        17
+      ],
+      "relevant_table_pages": [
+        16,
+        17,
+        22
+      ],
+      "relevant_figure_pages": [],
+      "reference_answer": "The statistics have qualifications. Tables use “-” for unavailable values; notes say NIPS was finalizing national, provincial and district projections for 2024 onward using the 2023 census. Notes for the 2018–2022 population estimates refer to census revisions/estimation bases, including a note that some estimates were based on the 1998 census. Also, the 2000 population differs between the Population tables on physical pages 16 and 17 (139.55m versus 139.96m), so values should be interpreted with their specific table/source notes rather than silently reconciled. (Physical PDF pages 2, 16, 17 and 22.)"
+    }
+  ]
+}
