@@ -1,0 +1,23 @@
+# Only package files required by the API container.
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+.venv
+venv
+__pycache__
+*.py[cod]
+*.pdf
+*.zip
+*.csv
+*.json
+*.md
+*.py
+!api.py
+chroma_db
+extracted_images
+models
+README.md
+streamlit_app.py
+requirements.txt
