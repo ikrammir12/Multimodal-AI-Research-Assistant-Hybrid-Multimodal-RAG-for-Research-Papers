@@ -28,7 +28,7 @@ def _secret(name: str, default: str = "") -> str:
         return default
 
 
-API_URL = _secret("RAG_API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_URL = _secret("RAG_API_URL", "https://multimodal-rag-840550.azurewebsites.net").rstrip("/")
 API_TOKEN = _secret("RAG_API_TOKEN", "")
 
 st.title("📚 Multimodal AI Research Assistant")
